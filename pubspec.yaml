@@ -1,0 +1,55 @@
+name: yoga_pose
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.2 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  pin_code_fields: ^7.4.0
+  flutter_native_splash: ^2.2.16
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+
+flutter_native_splash:
+  color: "#F5B696"
+  image: assets/logo/logo.png
+  branding: assets/logo/logo.png
+  color_dark: "#F5B696"
+  image_dark: assets/logo/logo.png
+#  branding_dark: assets/images/yoga.png
+
+  android_12:
+    image: assets/logo/logo.png
+    icon_background_color: "#ffffff"
+    image_dark: assets/logo/logo.png
+    icon_background_color_dark: "#121212"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo/
+    - assets/images/
+    - assets/icons/
+
+
+  fonts:
+    - family: Nunito
+      fonts:
+        - asset: assets/fonts/Nunito-Medium.ttf
+
+    - family: Playfair Display
+      fonts:
+        - asset: assets/fonts/playfairDisplay.ttf
+
